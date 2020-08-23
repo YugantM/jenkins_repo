@@ -1,0 +1,16 @@
+pipeline{
+	agent any 
+
+stages{
+	
+	stage('Build'){
+		steps{
+			echo 'desplaying the repo'
+			sh 'git clone https://github.com/YugantM/PKGBUILD_Tutorial.git'
+			sh 'cd /add_PKGBUILD'
+			sh 'makepkg'
+	}
+
+}
+
+}
