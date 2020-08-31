@@ -8,6 +8,7 @@ stages{
 		steps{
 
 			git url: 'https://github.com/YugantM/PKGBUILD_Tutorial.git'
+		}
 	}
 
 	stage('Build'){
@@ -17,9 +18,9 @@ stages{
 			sh 'git clone https://github.com/YugantM/PKGBUILD_Tutorial.git'
 			sh 'cd /add_PKGBUILD'
 			sh 'makepkg'
-	}
+		}
 
-}
+	}
 
 }
 
