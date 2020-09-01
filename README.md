@@ -72,6 +72,7 @@ Next, add the subdirectory path if required. Jenkins looks for the jenkinsfile i
 ## Writing JenkinsFile
 
  **Basic structure**
+ 
 <img src="./untitled (6).png">
 
 
