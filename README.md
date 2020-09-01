@@ -39,13 +39,13 @@ From virtual machine typy in <IP_Address>:8090
 
 Below is the landing page of the Jenkins
 
-![](/Users/yuganthadiyal/Desktop/Screenshot 2020-09-01 at 2.34.06 PM.png)
+![](./Screenshot 2020-09-01 at 2.34.06 PM.png)
 
 
 
 Select pipeline and enter the name:
 
-![](/Users/yuganthadiyal/Desktop/Screenshot 2020-09-01 at 2.38.49 PM.png)
+![](./Screenshot 2020-09-01 at 2.38.49 PM.png)
 
 
 
@@ -57,23 +57,23 @@ Select pipeline and enter the name:
 
 Go to Advanced Project Options >> Definition, select Pipeline script from SCM:
 
-![](/Users/yuganthadiyal/Desktop/Screenshot 2020-09-01 at 2.50.38 PM.png)
+![](/Screenshot 2020-09-01 at 2.50.38 PM.png)
 
 
 
 Select Git as SCM and paste the link of the github repository:
 
-![](/Users/yuganthadiyal/Desktop/Screenshot 2020-09-01 at 2.55.03 PM.png)
+![](./Screenshot 2020-09-01 at 2.55.03 PM.png)
 
 Next, add the subdirectory path if required. Jenkins looks for the jenkinsfile in the root directory of the repo if path is provided explicitly
 
-![](/Users/yuganthadiyal/Desktop/Screenshot 2020-09-01 at 2.57.22 PM.png)
+![](./Screenshot 2020-09-01 at 2.57.22 PM.png)
 
 
 
 #### 2 Select definition as Pipeline script and adit it write away
 
-![](/Users/yuganthadiyal/Desktop/Screenshot 2020-09-01 at 3.01.24 PM.png) 
+![](./Screenshot 2020-09-01 at 3.01.24 PM.png) 
 
 
 
@@ -81,7 +81,7 @@ Next, add the subdirectory path if required. Jenkins looks for the jenkinsfile i
 
  **Basic structure**
 
-![](/Users/yuganthadiyal/Downloads/untitled (6).png)
+![](./untitled (6).png)
 
 
 
