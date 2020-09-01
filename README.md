@@ -44,8 +44,7 @@ Below is the landing page of the Jenkins
 
 Select pipeline and enter the name:
 
-![]("./Screenshot 2020-09-01 at 2.38.49 PM.png")
-
+<img src="./Screenshot 2020-09-01 at 2.38.49 PM.png">
 
 
 ### Writing groovy script
@@ -55,33 +54,25 @@ Select pipeline and enter the name:
 #### 1 JenkinsFile in the repo
 
 Go to Advanced Project Options >> Definition, select Pipeline script from SCM:
-
-![](./Screenshot 2020-09-01 at 2.50.38 PM.png)
-
+<img src="./Screenshot 2020-09-01 at 2.50.38 PM.png">
 
 
 Select Git as SCM and paste the link of the github repository:
+<img src="./Screenshot 2020-09-01 at 2.55.03 PM.png">
 
-![](./Screenshot 2020-09-01 at 2.55.03 PM.png)
 
 Next, add the subdirectory path if required. Jenkins looks for the jenkinsfile in the root directory of the repo if path is provided explicitly
-
-![](./Screenshot 2020-09-01 at 2.57.22 PM.png)
-
+<img src="./Screenshot 2020-09-01 at 2.57.22 PM.png">
 
 
 #### 2 Select definition as Pipeline script and adit it write away
-
-![](./Screenshot 2020-09-01 at 3.01.24 PM.png) 
-
+<img src="./Screenshot 2020-09-01 at 3.01.24 PM.png">
 
 
 ## Writing JenkinsFile
 
  **Basic structure**
-
-![](./untitled (6).png)
-
+<img src="./untitled (6).png">
 
 
 Sample script:
