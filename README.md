@@ -40,7 +40,7 @@ From virtual machine typy in <IP_Address>:8090
 Below is the landing page of the Jenkins
 
 ![](Screenshot 2020-09-01 at 2.34.06 PM.png)
-
+<img src="./Screenshot 2020-09-01 at 2.34.06 PM.png">
 
 
 Select pipeline and enter the name:
