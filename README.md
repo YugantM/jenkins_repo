@@ -57,7 +57,7 @@ Select pipeline and enter the name:
 
 Go to Advanced Project Options >> Definition, select Pipeline script from SCM:
 
-![](/Screenshot 2020-09-01 at 2.50.38 PM.png)
+![](./Screenshot 2020-09-01 at 2.50.38 PM.png)
 
 
 
