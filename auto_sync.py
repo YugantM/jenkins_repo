@@ -121,7 +121,7 @@ class jenkins_server:
                 
                 temp = []
                 
-                if len(lcom("ggraph -p "+str(each))) !=0:
+                if len(self.lcom("ggraph -p "+str(each))) !=0:
                     temp.append(each)
                     
             return temp
@@ -144,9 +144,9 @@ if __name__ == '__main__':
     
     server = jenkins_server("localhost",'yugantm','1234')
     
-    if len(sync())>0:
+    if len(server.sync())>0:
         
-        for each in sync():
+        for each in server.sync():
             obj.create_pipe("pipe_"+each,each)
             
     else:
