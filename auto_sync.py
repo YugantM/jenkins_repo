@@ -98,6 +98,7 @@ class jenkins_server:
 
     def sync(self):
         
+        os.chdir("..")
         os.chdir("./Graph_Traversal")
         old_list = self.lcom("ggraph")
         os.system("git pull")
