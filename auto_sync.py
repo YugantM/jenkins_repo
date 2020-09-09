@@ -87,7 +87,7 @@ class jenkins_server:
     
     def __init__(self,server,username,password,port=8090):
         
-        self.server_point = jenkins.Jenkins("http://"+server+":"+str(port)+"/", username=username, password=str(password))
+        self.server_point = Jenkins("http://"+server+":"+str(port)+"/", username=username, password=str(password))
         
         
     def lcom(command,split=True):
@@ -105,9 +105,9 @@ class jenkins_server:
         
         new_list = lcom("ggraph")
         
-        additions = [each for each in new_list if not in old_list]
+        additions = [each for each in new_list if each not in old_list]
         
-        deletions = [each for each in old_list if not in new_list]
+        deletions = [each for each in old_list if each not in new_list]
         
         
         if len(additions) == 0:
