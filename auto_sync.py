@@ -90,20 +90,20 @@ class jenkins_server:
         self.server_point = Jenkins("http://"+server+":"+str(port)+"/", username=username, password=str(password))
         
         
-    def lcom(command,split=True):
+    def lcom(self,command,split=True):
         if split:
             return os.popen(command).read().split("\n")
         else:
             return os.popen(command).read().split("\n")
 
-    def sync():
+    def sync(self):
         
         os.chdir("./Graph_Traversal")
-        old_list = lcom("ggraph")
+        old_list = self.lcom("ggraph")
         os.system("git pull")
         
         
-        new_list = lcom("ggraph")
+        new_list = self.lcom("ggraph")
         
         additions = [each for each in new_list if each not in old_list]
         
@@ -144,7 +144,7 @@ if __name__ == '__main__':
     
     server = jenkins_server("localhost",'yugantm','1234')
     
-    if len(sync)>0:
+    if len(sync())>0:
         
         for each in sync():
             obj.create_pipe("pipe_"+each,each)
