@@ -1,5 +1,5 @@
 # jenkins_repo
- 
+
 
 This repository contains multiple jenkinsfile in subdirectories.
 
@@ -72,7 +72,7 @@ Next, add the subdirectory path if required. Jenkins looks for the jenkinsfile i
 ## Writing JenkinsFile
 
  **Basic structure**
- 
+
 <img src="./untitled (6).png">
 
 
@@ -109,3 +109,17 @@ pipeline{
 }
 ```
 
+
+
+
+
+# auto_sync.py
+
+This script can create jobs by checking the current state of the system and old state.
+
+
+
+**Following steps are executed in order to create the Jenkins jobs:**
+
+1. Connecting to Jenkins Server. (configuration part for linux tools is not known yet)
+2. 
