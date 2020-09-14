@@ -121,5 +121,20 @@ This script can create jobs by checking the current state of the system and old 
 
 **Following steps are executed in order to create the Jenkins jobs:**
 
-1. Connecting to Jenkins Server. (configuration part for linux tools is not known yet)
-2. 
+1. Connecting to Jenkins Server. (method of user configuration of linux tool is not known yet)
+2. Creates dependency graph of the the packages (folder with the PKGBUILDs in sub-folders)
+3. Pulls the git repo
+4. Creates dependency graph of the the packages (folder with the PKGBUILDs in sub-folders)
+5. Comapre two dependecy graphs and creates a new graph which indicates the changes.
+6. All the changes are detected like new package added, relation among the packages change or deletion.
+7. The list is created for the changed modules and a dependency sub-graph is generated for them.
+8. The main function follows the ordered-list of packages and creates a job if the job is not  already present in the Jenkins server.
+
+
+
+### Notes
+
+* *Triggering part is yet to be added*.
+* *Common json structure is yet to be implemented.*
+* *Automatic creation of jenkinsfiles not added.*
+
